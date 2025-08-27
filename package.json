@@ -1,0 +1,14 @@
+{ 
+    "name": "s-unit-tests-demo",
+    "version": "1.0.0",
+    "description": "A simple demo project for JavaScript unit tests",
+    "main": "math.js",
+    "scripts": {
+        "test": "jest"
+    },
+    
+
+"devDependencies": {
+    "jest": "^29.5.0"
+}   
+}
