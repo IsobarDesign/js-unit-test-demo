@@ -5,7 +5,7 @@ I.Overwiev
 This is a small demo project to show how I approach unit testing in JavaScript using Jest.
 It includes basic math functions (add and subtract) with tests covering valid and invalid inputs.
 
-Features
+II.Features
 
 math.js – simple functions with input validation.
 
@@ -13,15 +13,15 @@ math.test.js – unit tests using Jest, checking multiple cases including error 
 
 Demo console outputs – run node math.js to see example results in the console.
 
-II.Getting Started
+III.Getting Started
 
-Clone the repository:
+1.Clone the repository:
 
 git clone [your-repo-link]
 cd js-unit-test-demo
 
 
-Install dependencies:
+2.Install dependencies:
 
 npm install
 
@@ -31,7 +31,7 @@ Run tests:
 npm test
 
 
-Run demo console output:
+3.Run demo console output:
 
 node math.js
 
@@ -45,7 +45,7 @@ add('a', 3) = NaN
 subtract(undefined, 2) = NaN
 ==================
 
-Notes
+IV. Notes
 
 This is a simple example for demonstration purposes.
 
