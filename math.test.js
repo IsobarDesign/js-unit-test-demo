@@ -13,6 +13,9 @@ test('substract handles floats correctly '), () => {
     expect(subtract(5.5, 2.2)).toBeCloseTo(3.3);
     expect(subtract(0.1, 0.2)).toBeCloseTo(-0.1);
     expect(subtract(-1.5, -1.5)).toBeCloseTo(0);
+    expect(subtract(2.75, 1.25)).toBeCloseTo(1.5);
+    expect(subtract(100.5, 50.25)).toBeCloseTo(50.25);
+    expect(subtract(-0.1, 0.1)).toBeCloseTo(-0.2);
 };
 
 
